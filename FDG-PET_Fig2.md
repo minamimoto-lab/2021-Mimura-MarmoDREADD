@@ -1,3 +1,12 @@
+---
+title: "Fig 2"
+output: 
+  html_document:
+    keep_md: TRUE
+---
+
+
+
 ## Setting
 
 
@@ -35,4 +44,4 @@ ggplot(data = dat) +
   theme(axis.title.x = element_blank())
 ```
 
-![](Fig2_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](FDG-PET_Fig2_files/figure-html/unnamed-chunk-3-1.png)<!-- -->

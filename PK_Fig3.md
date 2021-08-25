@@ -1,3 +1,12 @@
+---
+title: "Fig. 3"
+output: 
+  html_document:
+    keep_md: TRUE
+---
+
+
+
 ## Setting
 
 
@@ -56,4 +65,4 @@ ggplot(data = dat) +
         legend.title = element_blank())
 ```
 
-![](Fig3_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](PK_Fig3_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
