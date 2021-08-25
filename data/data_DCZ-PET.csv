@@ -1,0 +1,9 @@
+ID,injection,date,VOI,side,BPnd
+Marmo1,20180319,20180501,Substantia nigra_Rt,hM3Dq,1.923975048
+Marmo1,20180319,20180501,Substantia nigra_Lt,Control,0.537822839
+Marmo4,20170614,20170809,Substantia nigra_Rt,Control,0.323302703
+Marmo4,20170614,20170809,Substantia nigra_Lt,hM3Dq,1.480647833
+Marmo2,20180329,20180529,Substantia nigra_Rt,Control,0.990709613
+Marmo2,20180329,20180529,Substantia nigra_Lt,hM3Dq,3.186519781
+Marmo3,20200917,20201110,Substantia nigra_Lt,hM3Dq,0.683224662
+Marmo3,20200917,20201110,Substantia nigra_Rt,Control,0.292721768
