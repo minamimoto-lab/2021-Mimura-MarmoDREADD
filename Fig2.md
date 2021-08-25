@@ -28,9 +28,7 @@ path <- "data/data_FDG-PET.csv"
 ```r
 dat <-
   path %>% 
-  read_csv() %>% 
-  mutate(x = factor(type) %>% 
-           as.numeric())
+  read_csv()
 ```
 
 ## Visualization
