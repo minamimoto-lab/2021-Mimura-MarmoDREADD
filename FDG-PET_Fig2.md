@@ -1,12 +1,3 @@
----
-title: "Fig 2"
-output: 
-  html_document:
-    keep_md: TRUE
----
-
-
-
 ## Setting
 
 
