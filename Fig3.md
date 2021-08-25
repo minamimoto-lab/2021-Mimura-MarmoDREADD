@@ -7,6 +7,8 @@ output:
 
 
 
+## Setting
+
 
 ```r
 library(tidyverse)
@@ -15,6 +17,8 @@ theme_set(theme_classic())
 
 .colors <- c("deeppink", "orange")
 ```
+
+## Data
 
 
 ```r
@@ -43,6 +47,8 @@ dat
 ## # … with 32 more rows
 ```
 
+## Visualization
+
 
 ```r
 ggplot(data = dat) +
@@ -53,7 +59,8 @@ ggplot(data = dat) +
   geom_point() +
   scale_color_manual(values = .colors) +
   facet_wrap(~ target) +
-  theme(strip.background = element_rect(color = "white"))
+  theme(strip.background = element_rect(color = "white"),
+        legend.title = element_blank())
 ```
 
 ![](Fig3_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
