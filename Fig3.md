@@ -16,6 +16,8 @@ library(tidyverse)
 theme_set(theme_classic())
 
 .colors <- c("deeppink", "orange")
+
+path <- "data/data_pk.csv"
 ```
 
 ## Data
@@ -23,7 +25,7 @@ theme_set(theme_classic())
 
 ```r
 dat <- 
-  "data/data_pk.csv" %>% 
+  path %>% 
   read_csv() %>% 
   mutate(target = factor(target, levels = c("DCZ", "C21", "DCZ-n-oxide")))
 
